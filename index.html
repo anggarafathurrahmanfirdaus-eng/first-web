@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FIRST WEB</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+			<img src="asssets/icon/partner.png" alt="logo" class="logo-img"/>
+			<h1 class="logo-title">NPFIAFF X</h1>
+		</div>
+		
+		<nav>
+			<ul>
+				<li><a href="#jasa">SERVICE</a></li>
+				<li><a href="mailto:anggarafathurrahmanfirdaus@gmail.com">CONTACT</a></li>
+			</ul>
+		</nav>
+		<button class="btn-cta" onclick="redirInstagram()">FOLLOW SAYA</button>
+	</header>
+
+	<div class="container">
+		<div class="intro">
+			<p class="title">HELLO ANGGARA IS HERE</p>
+			<p class="description">NEW PROGRAMER FROM INDONESIA</p>
+			<img src="asssets/foto/gweh.png" alt="Foto Anggara" class="img-foto"/>
+		</div>
+	</div>
+
+	<div class="parallax">
+		<div class="overlay">
+			<div class="tentang">
+				<p class="title">I AM A NEW PROGRAMER</p>
+				<p class="description">DO IT FIRST, THEN SEE THE RESULTS</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">LET'S WORK TOGETHER</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="wrapper"/>
+			<div class="cards" id="jasa">
+			<div class="cards-item">
+			<img src="asssets/icon/24-hours.png" alt="icon 1" class="icon"/>
+				<p class="cards-title">24-HOUR ONLINE</p>
+				<p class="cards-description">
+				RECEIVE 24-HOUR CUSTOMER SERVICE
+				</p>
+			</div>
+
+			<div class="cards-item">
+			<img src="asssets/icon/hot-deal.png" alt="icon 2" class="icon"/>
+				<p class="cards-title">CHEAP PROGRAMMING SERVICES</p>
+				<p class="cards-description">
+				THE SERVICE FEES I PROVIDE ARE DEFINITELY CHEAP AND THE QUALITY IS GUARANTEED
+				</p>
+			</div>
+
+			<div class="cards-item">
+			<img src="asssets/icon/rating.png" alt="icon 3" class="icon"/>
+				<p class="cards-title">0/10 ⭐</p>
+				<p class="cards-description">
+				PLEASE RATE
+				</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p class="title">&copy; ANGGARA FATHURRAHMAN FIRDAUS WEBSITE 2026</p>
+	</footer>
+	
+	<script>
+		function redirInstagram() {
+			window.location.href = "https://www.instagram.com/npfiaff"
+		}
+		
+		function redirWhatsapp() {
+			window.location.href ="https://wa.me/+6287865545960"
+		}
+	</script>
+</body>
+</html>
